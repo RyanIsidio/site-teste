@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Calvice e QI</title>
+
+    <script src="p3.js"></script>
+    <link rel="stylesheet" href="p2.css">
+    
+</head>
+<body>
+    
+<header>
+    <h1>Faça aqui seu Teste</h1>
+</header>
+
+<section>
+
+    <div id="pergunta1">
+        <p>
+            <p>Pergunta 1</p>
+            <b> O que é, o que é? Dá muitas voltas e não sai do lugar.</b>
+            <!--O Relógio-->
+            <br><br>Resposta:  <input type="text" name="rp" id="rp1"></br>
+            <p>
+                <input type="button" value="Próxima" onclick="proximaPergunta()">
+            </p>
+        </p>
+    </div>
+
+    <div id="pergunta2" style="display: none;">
+        <p>
+            <p>Pergunta 2</p>
+            <b> O que é algo que é seu, mas é usado muito mais frequentemente por outras pessoas?</b>
+            <!--O Nome-->
+            <br><br>Resposta:  <input type="text" name="rp" id="rp2"></br>
+            <p>
+                <input type="button" value="Próxima" onclick="proximaPergunta()">
+            </p>
+        </p>
+    </div>
+
+    <div id="pergunta3" style="display: none;">
+        <p>
+            <p>Pergunta 3</p>
+            <b>O que é algo que é feito para ser quebrado?</b>
+            <!--Recorde-->
+            <br><br>Resposta: <input type="text" name="rp" id="rp3">
+            <p>
+                <input type="button" value="Próxima" onclick="proximaPergunta()">
+            </p>
+        </p>
+    </div>
+
+    <div id="pergunta4" style="display: none;">
+        <p>
+            <p>Pergunta 4</p>
+            <b>O que é, o que é? Tem um pescoço longo, mas não é uma girafa?</b>
+            <!--A garrafa-->
+            <br><br>Resposta: <input type="text" name="rp" id="rp4">
+            <p>
+                <input type="button" value="Próxima" onclick="proximaPergunta()">
+            </p>
+        </p>
+    </div>
+
+    <div id="pergunta5" style="display: none;">
+        <p>Pergunta 5</p>
+        <b>5- O que é, o que é? Mesmo atravessando o rio não se molha</b>
+        <!--A ponte-->
+        <br><br>Resposta: <input type="text" name="rp" id="rp5">
+        <p>
+            <input type="button" value="Próxima" onclick="proximaPergunta()">
+        </p>
+    </div>
+
+
+    <!--Etapa 3: bald test-->
+
+    <div id="pergunta6" style="display: none;">
+        <p>Preencha para finalizar</p>
+        <p> 
+            Ano de Nascimento:
+            <input type="text" name="txtano" id="txtano">
+        </p>   
+        <p>
+            Sexo:
+            <input type="radio" name="rsex" id="mas"> Masculino
+            <input type="radio" name="rsex" id="fem"> Feminino
+
+            <div id="res">
+                <p>
+                    <input type="button" value="Resultado" id="Respostas" onclick="Respostas()">
+                </p>
+            </div>
+    </div>
+
+
+</section>
+
+</body>
+</html>
